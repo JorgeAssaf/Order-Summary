@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
-
 :root {
   --bgblue: hsl(225, 100%, 94%);
   --Brinessblue: hsl(245, 75%, 52%);
@@ -89,7 +88,9 @@ body {
 }
 
 .price {
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 100px;
+  color: var(--grayblue);
 }
 
 .btn_change {
@@ -133,17 +134,14 @@ body {
   .img_p {
     width: 405px;
   }
-
   .card_cont {
     width: 405px;
     height: 100%;
     padding-bottom: 2.4rem;
   }
-
   .text_plan {
     margin-left: -5.3rem;
   }
-
   .btn_change {
     padding-right: 3rem;
     margin-left: -1.3rem;
@@ -152,18 +150,15 @@ body {
     font-size: 16.5px;
     color: var(--Brinessblue);
   }
-
   .list {
     font-size: 16px;
   }
-
   .title {
     font-size: 25px;
     font-weight: 900;
     color: var(--Darkblue);
     margin: 20px 0;
   }
-
   .text_p {
     font-size: 17.3px;
   }
