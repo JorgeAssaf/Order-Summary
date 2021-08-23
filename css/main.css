@@ -88,8 +88,7 @@ body {
 }
 
 .price {
-  font-weight: 400;
-  font-size: 100px;
+  font-weight: 500;
   color: var(--grayblue);
 }
 
