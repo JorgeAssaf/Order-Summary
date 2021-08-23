@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
 :root {
   --bgblue: hsl(225, 100%, 94%);
   --Brinessblue: hsl(245, 75%, 52%);
@@ -24,7 +25,7 @@ body {
 .img_p {
   display: flex;
   margin: 0 auto;
-  margin-top: 2.9rem;
+  margin-top: 4rem;
   background-image: url(../images/illustration-hero.svg);
   background-size: cover;
   background-position: center;
@@ -45,7 +46,7 @@ body {
   padding-bottom: 1.4rem;
   margin-bottom: 2.9rem;
   border-radius: 0 0 1rem 1rem;
-  background: var(--bgcardblue);
+  background: white;
 }
 
 .hero_primary .title {
@@ -71,23 +72,28 @@ body {
 }
 
 .list {
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: var(--bgcardblue);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 1.2rem 0 2.4rem;
+  margin: 1.2rem 0;
+  border-radius: 1rem;
 }
 
 .text_plan {
-  margin-left: -3rem;
-}
-
-.price {
+  margin-left: -2rem;
   font-weight: 700;
 }
 
+.price {
+  font-weight: 500;
+}
+
 .btn_change {
-  margin-right: -0.2rem;
+  margin-right: 0.7rem;
   text-decoration: none;
   font-weight: 700;
   font-size: 16.5px;
@@ -98,6 +104,7 @@ body {
   display: inline-block;
   background-color: var(--Brinessblue);
   text-align: center;
+  font-weight: 700;
   padding: 1rem 0.3rem;
   border-radius: 0.7rem;
   margin-bottom: 2.5rem;
@@ -126,14 +133,17 @@ body {
   .img_p {
     width: 405px;
   }
+
   .card_cont {
     width: 405px;
     height: 100%;
     padding-bottom: 2.4rem;
   }
+
   .text_plan {
-    margin-left: -6.3rem;
+    margin-left: -5.3rem;
   }
+
   .btn_change {
     padding-right: 3rem;
     margin-left: -1.3rem;
@@ -142,15 +152,18 @@ body {
     font-size: 16.5px;
     color: var(--Brinessblue);
   }
+
   .list {
     font-size: 16px;
   }
+
   .title {
     font-size: 25px;
     font-weight: 900;
     color: var(--Darkblue);
     margin: 20px 0;
   }
+
   .text_p {
     font-size: 17.3px;
   }
